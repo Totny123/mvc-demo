@@ -1,0 +1,22 @@
+.app2 .tab-bar {
+  display: flex;
+}
+
+.app2 .tab-bar li {
+  width: 50%;
+  background: pink;
+  color: white;
+  border: 1px solid green;
+}
+
+.app2 .tab-content li {
+  display: none;
+}
+
+.app2 .tab-bar .active {
+  background: purple;
+}
+
+.app2 .tab-content .active {
+  display: block;
+}

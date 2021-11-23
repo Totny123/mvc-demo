@@ -1,0 +1,11 @@
+.app3 .square {
+  width: 15vw;
+  height: 15vw;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 1px solid purple;
+  transition: all 1.5s;
+}
+.app3 .square.active {
+  transform: translateX(15vw);
+}
